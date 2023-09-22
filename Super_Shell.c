@@ -26,7 +26,6 @@ int main() {
             printf("\n");
             exit(0);
         }
-
         // Remove trailing newline character
         input[strcspn(input, "\n")] = 0;
 
