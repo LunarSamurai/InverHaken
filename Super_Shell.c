@@ -21,7 +21,7 @@ int main() {
     while(1) {
         display_prompt();
 
-        // Read input
+        // Read all of the inputs
         if (fgets(input, sizeof(input), stdin) == NULL) {
             printf("\n");
             exit(0);
